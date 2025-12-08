@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StatusHD Pro - Download Update</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #020617;
+      color: #f1f5f9;
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .container {
+      text-align: center;
+      max-width: 420px;
+      width: 100%;
+    }
+
+    .circle {
+      width: 130px;
+      height: 130px;
+      margin: 40px auto 20px auto;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #3b82f6, #10b981);
+      box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 20px;
+    }
+
+    .circle-icon {
+      font-size: 60px;
+      color: white;
+    }
+
+    .card {
+      background-color: #0f172a;
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 28px;
+      margin-top: 20px;
+    }
+
+    .download-btn {
+      margin-top: 28px;
+      background: linear-gradient(135deg, #3b82f6, #10b981);
+      padding: 14px 24px;
+      color: white;
+      font-size: 18px;
+      font-weight: 600;
+      border-radius: 10px;
+      text-decoration: none;
+      display: inline-block;
+      box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 20px;
+    }
+
+    .footer {
+      margin-top: 40px;
+      font-size: 12px;
+      opacity: 0.6;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="circle">
+      <span class="circle-icon">⬇️</span>
+    </div>
+
+    <h2>StatusHD Pro Update</h2>
+    <p style="opacity: 0.8;">
+      A new version of StatusHD Pro is available.  
+      Download the latest update to continue using the app.
+    </p>
+
+    <div class="card">
+      <p style="font-size: 14px; opacity: 0.8;">
+        Tap the button below to download the latest APK file.
+      </p>
+    </div>
+
+    <!-- 🔥 CHANGE THIS LINK later when your APK is uploaded -->
+    <a class="download-btn" href="#" id="downloadLink">Download Update</a>
+
+    <div class="footer">Developed by FadSync</div>
+  </div>
+
+  <script>
+    // Will update this when you upload APK
+    document.getElementById("downloadLink").href =
+      "https://your-apk-link-here.com/app.apk";
+  </script>
+</body>
+</html>
